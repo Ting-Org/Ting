@@ -7,8 +7,6 @@ on:
       - '!**.md'
       - '!.github/workflows/**'
       - '.github/workflows/playwright-mock.yml'
-  schedule:
-    - cron: '0 5 * * *'
   workflow_dispatch:
     inputs:
       reason:
